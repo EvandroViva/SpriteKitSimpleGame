@@ -16,6 +16,7 @@
 		90D53B5D1AF7A90C0038AF96 /* SpriteKitSimpleGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D53B5C1AF7A90C0038AF96 /* SpriteKitSimpleGameTests.swift */; };
 		90D53B681AF7AA950038AF96 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 90D53B661AF7AA950038AF96 /* Sounds */; };
 		90D53B691AF7AA950038AF96 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 90D53B671AF7AA950038AF96 /* sprites.atlas */; };
+		90D53B6B1AF7B0750038AF96 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D53B6A1AF7B0750038AF96 /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		90D53B5C1AF7A90C0038AF96 /* SpriteKitSimpleGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitSimpleGameTests.swift; sourceTree = "<group>"; };
 		90D53B661AF7AA950038AF96 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		90D53B671AF7AA950038AF96 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		90D53B6A1AF7B0750038AF96 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				90D53B421AF7A90C0038AF96 /* AppDelegate.swift */,
 				90D53B461AF7A90C0038AF96 /* GameScene.swift */,
+				90D53B6A1AF7B0750038AF96 /* GameOverScene.swift */,
 				90D53B481AF7A90C0038AF96 /* GameViewController.swift */,
 				90D53B4A1AF7A90C0038AF96 /* Main.storyboard */,
 				90D53B4D1AF7A90C0038AF96 /* Images.xcassets */,
@@ -225,6 +228,7 @@
 			files = (
 				90D53B471AF7A90C0038AF96 /* GameScene.swift in Sources */,
 				90D53B491AF7A90C0038AF96 /* GameViewController.swift in Sources */,
+				90D53B6B1AF7B0750038AF96 /* GameOverScene.swift in Sources */,
 				90D53B431AF7A90C0038AF96 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
